@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 import streamlit as st  
   
 # Load dataset  
-data = pd.read_csv('classification.csv')  
+data = pd.read_csv('Classification.csv')  
   
 # Preprocessing  
 data['Drug'] = data['Drug'].str.upper()  # Normalize drug names  
